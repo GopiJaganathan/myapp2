@@ -1,0 +1,8 @@
+{{#link-to 'cars.new'}}Create cars{{/link-to}}
+
+<h1>Cars</h1>
+<ul>
+{{#each model as |car|}}
+	<li>{{car.year}} - {{index}}</li>
+{{/each}}
+</ul>
